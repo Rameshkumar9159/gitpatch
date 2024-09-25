@@ -1,0 +1,25 @@
+From 22f17ebcac3032067596673d779caafde610fc75 Mon Sep 17 00:00:00 2001
+From: Rameshkumar9159 <rameshsv06@gmail.com>
+Date: Wed, 25 Sep 2024 14:17:47 +0530
+Subject: [PATCH] Changed Hello, World to Hello, Universe
+
+---
+ git_org_hello.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/git_org_hello.c b/git_org_hello.c
+index f778b08..0ba254d 100644
+--- a/git_org_hello.c
++++ b/git_org_hello.c
+@@ -1,7 +1,7 @@
+ #include <stdio.h>
+ 
+ int main() {
+-    printf("Hello, World!\n");
++    printf("Hello, Universe!\n");
+     return 0;
+ }
+ 
+-- 
+2.25.1
+
